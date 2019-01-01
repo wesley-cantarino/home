@@ -52,7 +52,7 @@ header{
 /***************************/
 
 /***************************/
-.footer_bar_linha_1 {
+.footer_bar_linha_1{
   background-color: #d6b1e9;
   text-align: center;
   width: auto;
@@ -66,28 +66,33 @@ header{
 }
 /***************************/
 
-.bar_linha_1_item_texto {
+.bar_linha_1_item_texto{
   color: #212121;
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
 }
 
-.bar_linha_1_item_texto_especial {
+.bar_linha_1_item_texto_especial{
   color: #db00d9;
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
 }
 
-.bar_linha_2 {
+.bar_linha_2{
   color: #fff;
-  font-size: 20px;
+  font-size: 15px;
 
   background-color: #141116;
   padding: 10px;
 
   margin: 15px 0px -15px -10px;
 
+  text-align: center;
+}
+
+/*********************************/
+.blog_maim{
   text-align: center;
 }
