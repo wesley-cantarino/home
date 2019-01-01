@@ -2,24 +2,27 @@
   .blog_init{
     background: #e28b79;
 
-    margin: 20px 100px 20px 100px;
+    margin: 20px 0px 20px 0px;
     height: 300px;
+
+    width: 700px;
+    display: inline-block;
   }
   .blog_init:hover{
     background: #72db99;
     cursor: pointer;
   }
 
-  .img{ /*600px por 200px e como "linkar" todo o container*/
+  .img{ /*540px por 200px. como "linkar" todo o container*/
     height: 200px;
-    width: 70%;
+    width: 540px;
   }
 }
 
 @media screen and (max-width: 700px){
   .blog_init{
     background: #e28b79;
-    margin: 20px 40px 20px 40px;
+    margin: 20px 10px 20px 10px;
     height: 300px;
   }
   .blog_init:hover{
