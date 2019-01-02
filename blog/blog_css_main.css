@@ -1,37 +1,49 @@
 @media screen and (min-width: 700px){
   .blog_init{
-    background: #e28b79;
+    background: #d6b1e9;
 
     margin: 20px 0px 20px 0px;
     height: 300px;
 
     width: 700px;
     display: inline-block;
+
+    border-radius: 5px;
   }
   .blog_init:hover{
-    background: #72db99;
+    background: #9779a6;
     cursor: pointer;
   }
 
   .img{ /*540px por 200px. como "linkar" todo o container*/
     height: 200px;
     width: 540px;
+
+    border-radius: 2px;
   }
 }
 
 @media screen and (max-width: 700px){
   .blog_init{
-    background: #e28b79;
+    background: #d6b1e9;
     margin: 20px 10px 20px 10px;
     height: 300px;
+
+    border-radius: 5px;
   }
   .blog_init:hover{
-    background: #81e2a5;
+    background: #9779a6;
     cursor: pointer;
   }
 
   .img{
     height: 230px;
     width: 95%;
+
+    border-radius: 2px;
   }
+}
+
+.postagens_texto{
+  color: #000000;
 }
