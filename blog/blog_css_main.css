@@ -42,7 +42,14 @@
 
 .postagens_texto{
   color: #000000;
+  text-decoration: underline;
 }
-
-.blog_maim_marc{
+.blog_maim_marc_hover{
+  text-decoration: none;
+  color: #090909;
+  padding: 2px;
+}
+.blog_maim_marc_hover:hover{
+  background: #d6b1e9;
+  padding: 2px;
 }
