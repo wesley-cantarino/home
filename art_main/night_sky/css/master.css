@@ -9,6 +9,11 @@
 
   /* This centers our sketch vertically. */
   align-items: center;
+
+  width:  90%;
+}
+body {
+  background-color: #d6b1e9;
 }
 
 canvas {

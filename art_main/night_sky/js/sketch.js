@@ -1,5 +1,5 @@
 var Night_Sky = [];
-var tam_Night_Sky = 200;
+var tam_Night_Sky = 100;
 
 var ground_randomY = [];
 var point_ground = 6;
@@ -15,8 +15,14 @@ var cloud = [];
 var tam_cloud = 5;
 
 function setup() {
-  var canvas = createCanvas(windowWidth - 17, windowHeight);
-  canvas.position(0, 68);
+  //if(windowWidth <= 450){
+    var canvas = createCanvas(windowWidth, windowHeight - 92);
+    canvas.position(0, 92);
+  /*}
+  else{
+    var canvas = createCanvas(windowWidth - 17, windowHeight);
+    canvas.position(0, 68);
+  }*/
 
   for (var i = 0; i < tam_Night_Sky; i++)
     Night_Sky.push(new ones_function());
@@ -49,19 +55,21 @@ function draw() {
   }
 
   grounds();
+  if(windowWidth > 700){
 
-  for (var i = 0; i < star.length; i++)
-    if ((random(0, 1000) < 20) && (random(0, 1000) > 980) && (boolean(goes[i]) == false))
-      goes[i] = true;
-  for (var i = 0; i < star.length; i++)
-    if(boolean(goes[i])){
-      star[i].movie(i);
-      star[i].display();
-    }
+    /*for (var i = 0; i < star.length; i++)
+      if ((random(0, 1000) < 20) && (random(0, 1000) > 980) && (boolean(goes[i]) == false))
+        goes[i] = true;
+    for (var i = 0; i < star.length; i++)
+      if(boolean(goes[i])){
+        star[i].movie(i);
+        star[i].display();
+      }*/
 
-  for (var i = 0; i < cloud.length; i++) {
-    cloud[i].move();
-    cloud[i].display();
+    /*for (var i = 0; i < cloud.length; i++) {
+      cloud[i].move();
+      cloud[i].display();
+    }*/
   }
 }
 
@@ -70,7 +78,7 @@ function ground() {
   noStroke();
   for(i = 0; i < height; i += 10){
     fill(19 + co, 24 + co, 60 + co);
-    co += 1.2;
+    co += 3;
     rect(0, i, width, 100);
   }
 
