@@ -22,13 +22,13 @@ body, html {
 /* Second image (Portfolio) */
 .bgimg-2 {
   background-image: url("../image/background_kiwi.jpg");
-  min-height: 400px;
+  min-height: 250px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
   background-image: url("../image/background_kiwi.jpg");
-  min-height: 400px;
+  min-height: 200px;
 }
 
 .w3-wide {letter-spacing: 10px;}
@@ -41,4 +41,13 @@ body, html {
     background-attachment: scroll;
     min-height: 400px;
   }*/
+}
+
+.link_{
+  text-decoration: none;
+}
+
+.borda{
+  -webkit-text-stroke-width: 1px; /* largura da borda */
+  -webkit-text-stroke-color: #d9d9d9; /* cor da borda */
 }
