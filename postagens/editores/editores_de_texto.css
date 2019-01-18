@@ -1,0 +1,33 @@
+.display_main{
+  text-align: center;
+
+  margin: 10px 20px 10px 20px;
+}
+
+.art{
+  text-align: justify;
+}
+
+.texto_link{
+  text-decoration: none;
+  color: #000000;
+}
+
+.texto_link_2{
+  text-decoration: underline;
+  color: #000000;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1000px){
+  .image{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  .image{
+    margin-left: calc((100% - 1000px)/2);
+    width: 1000px;
+  }
+}

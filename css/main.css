@@ -21,13 +21,13 @@ body, html {
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("../image/background_kiwi.jpg");
+  background-image: url("../image/portfolio.jpg");
   min-height: 250px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("../image/background_kiwi.jpg");
+  background-image: url("../image/contact.jpg");
   min-height: 200px;
 }
 
@@ -36,11 +36,14 @@ body, html {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
-  /*
-  .bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
-    min-height: 400px;
-  }*/
+  .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+  }
+}
+
+.link_postagem{
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .link_{
@@ -49,5 +52,5 @@ body, html {
 
 .borda{
   -webkit-text-stroke-width: 1px; /* largura da borda */
-  -webkit-text-stroke-color: #d9d9d9; /* cor da borda */
+  -webkit-text-stroke-color: #939393; /* cor da borda */
 }

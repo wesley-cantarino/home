@@ -65,7 +65,7 @@
          	<!-- photo -->
           <div class="w3-col m6 w3-center w3-padding-large">
             <p><b><i class="fa fa-user w3-margin-right"></i>Wesley Cantarino</b></p><br>
-            <img src="../image/background_kiwi.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+            <img src="image/me.jpg" onclick="onClick(this)" class="w3-hover-opacity w3-round w3-image w3-hover-opacity-off" alt="The mist over the mountains" style="width:100%">
           </div>
 
           <!-- Hide this text on small devices -->
@@ -87,49 +87,60 @@
       </div>
 
       <!-- Container (Portfolio Section) -->
-      <div class="w3-content w3-container w3-padding-64">
+      <!-- w3-content w3-container w3-padding-64 -->
+      <div class="w3-content">
         <h3 class="w3-center">MY WORK</h3>
         <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
 
         <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
         <div class="w3-row-padding w3-center">
-          <div class="w3-col m3">
-            <img src="image/background_kiwi.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+          <div class="w3-col m4 w3-margin-esp">
+            <a href="postagens/editores/editores_de_texto.html">
+              <img src="postagens/editores/img/editores.jpg" style="width:100%" class="w3-hover-opacity" alt="The mist over the mountains">
+            </a>
           </div>
 
-          <div class="w3-col m3">
-            <img src="image/background_kiwi.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+          <div class="w3-col m4 w3-margin-esp">
+            <a href="postagens/">
+              <img src="image/background_kiwi.jpg" style="width:100%" class="w3-hover-opacity" alt="The mist over the mountains">
+            </a>
           </div>
 
-          <div class="w3-col m3">
-            <img src="image/background_kiwi.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
-          </div>
-
-          <div class="w3-col m3">
-            <img src="image/background_kiwi.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+          <div class="w3-col m4 w3-margin-esp">
+            <a href="postagens/">
+              <img src="image/background_kiwi.jpg" style="width:100%" class="w3-hover-opacity" alt="The mist over the mountains">
+            </a>
           </div>
         </div>
 
         <div class="w3-row-padding w3-center">
-          <div class="w3-col m9" class="w3-lin m8">
-            <img src="image/background_kiwi.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+          <div class="w3-col m9 w3-margin-esp" class="w3-lin m8">
+            <a href="postagens/">
+              <img src="image/background_kiwi.jpg" style="width:100%" class="w3-hover-opacity" alt="The mist over the mountains">
+            </a>
           </div>
 
-          <div class="w3-col m3">
-            <img src="image/background_kiwi.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+          <div class="w3-col m3 w3-margin-esp">
+            <a href="postagens/">
+              <img src="image/background_kiwi.jpg" style="width:100%" class="w3-hover-opacity" alt="The mist over the mountains">
+            </a>
           </div>
 
-          <div class="w3-col m3">
-            <img src="image/background_kiwi.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+          <div class="w3-col m3 w3-margin-esp">
+            <a href="postagens/">
+              <img src="image/background_kiwi.jpg" style="width:100%" class="w3-hover-opacity" alt="The mist over the mountains">
+            </a>
           </div>
 
-          <div class="w3-col m3">
-            <img src="image/background_kiwi.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+          <div class="w3-col m3 w3-margin-esp">
+            <a href="postagens/">
+              <img src="image/background_kiwi.jpg" style="width:100%" class="w3-hover-opacity" alt="The mist over the mountains">
+            </a>
           </div>
         </div>
 
         <div class="w3-row-padding w3-center w3-section">
-          <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+          <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px" onclick="function_no_more()">LOAD MORE</button>
         </div>
       </div>
 

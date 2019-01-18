@@ -1,0 +1,4 @@
+Display comum de calculadora (aquele que está danificado) e display de multimêtro (em bom estado)
+
+25/12
+	* A tela se forma quando se tem 9v e 5v também da certo.
