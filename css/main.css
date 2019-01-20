@@ -58,3 +58,7 @@ body, html {
   -webkit-text-stroke-width: 1px; /* largura da borda */
   -webkit-text-stroke-color: #939393; /* cor da borda */
 }
+
+.pages{
+  background: #efefef;
+}
