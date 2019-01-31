@@ -3,6 +3,11 @@ function function_no_more()
   alert("no have more :/");
 }
 
+function function_nothing()
+{
+  alert("have nothing here :/");
+}
+
 // Modal Image Gallery
 function onClick(element)
 {
